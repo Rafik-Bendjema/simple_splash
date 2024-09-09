@@ -1,5 +1,8 @@
 # Flutter Splash Screen
 
+![preview](https://github.com/user-attachments/assets/c7235979-f2ec-4555-ad46-e5efca742e2c)
+
+
 A customizable and animated splash screen for your Flutter apps. This package offers smooth fading and scaling effects with support for custom text, logo, gradients, and colors.
 
 ## Features:
@@ -10,19 +13,20 @@ A customizable and animated splash screen for your Flutter apps. This package of
 
 ## Installation:
 
+
 Add `flutter_Simple_splash` to your `pubspec.yaml` dependencies:
 
-'''yaml
 
+
+```yaml
 dependencies:
   flutter_Simple_splash: ^0.0.1
-  
-'''
+```
 
 ## Usage:
 
-'''dart
 
+```dart
     import 'package:flutter_Simple_splash/flutter_Simple_splash.dart';
     class MyApp extends StatelessWidget {
       @override
@@ -52,8 +56,9 @@ dependencies:
         );
       }
     }
+```
     
-'''
+
 
 ## Parameters:
 * backgroundColor: Color of the splash screen background.
